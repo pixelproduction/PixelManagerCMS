@@ -1,0 +1,143 @@
+
+
+/*
+ * Processing indicator
+ */
+.dataTables_processing {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 250px;
+    height: 30px;
+    margin-left: -125px;
+    margin-top: -15px;
+    padding: 14px 0 2px 0;
+    border: 1px solid #ddd;
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+    background-color: white;
+}
+
+
+/*
+ * Sorting
+ */
+.sorting {
+    background: url('../images/sort_both.png') no-repeat center right;
+}
+
+.sorting:hover {
+    background-color: #F5F5F5;
+}
+
+.sorting_asc {
+    background: url('../images/sort_asc.png') no-repeat center right;
+}
+
+.sorting_desc {
+    background: url('../images/sort_desc.png') no-repeat center right;
+}
+
+.sorting_asc,
+.sorting_desc
+{
+    background-color: #BEEBFF;
+}
+
+.sorting,
+.sorting_asc,
+.sorting_desc
+{
+    cursor: pointer;
+}
+
+.sorting_asc_disabled { background: url('../images/sort_asc_disabled.png') no-repeat center right; }
+.sorting_desc_disabled { background: url('../images/sort_desc_disabled.png') no-repeat center right; }
+ 
+table.dataTable thead th:active,
+table.dataTable thead td:active {
+    outline: none;
+}
+
+
+/*
+ * Scrolling
+ */
+.dataTables_scroll {
+    clear: both;
+}
+
+.dataTables_scrollBody {
+    *margin-top: -1px;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+
+
+
+
+
+
+
+
+table.dataTable {
+    clear: both;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.data-table-container {
+/*    padding: 0 15px; */
+}
+
+.data-table-header {
+
+}
+
+.data-table-header-length,
+.data-table-header-filter,
+.data-table-header-information
+{
+    float: left;
+    line-height: 30px;
+    padding: 0 20px 0 0;
+}
+
+.data-table-header-length,
+.data-table-header-filter,
+.data-table-header-information
+{
+
+}
+
+.data-table-footer {
+
+}
+
+.data-table-footer-pagination {
+
+}
+
+/*div.dataTables_length label {
+    float: left;
+    text-align: left;
+}
+ 
+div.dataTables_length select {
+    width: 75px;
+}
+ 
+div.dataTables_filter label {
+    float: right;
+}
+ 
+div.dataTables_info {
+}*/
+ 
+div.dataTables_paginate {
+    float: right;
+    margin: 0;
+}
+ 
