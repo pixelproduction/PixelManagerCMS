@@ -28,7 +28,7 @@ return [
     'version' => [
         'main'     => 1, // Major version number
         'sub'      => 2, // Minor version number
-        'features' => 0, // number of added features since the last increment of the major or minor version number
+        'features' => 1, // number of added features since the last increment of the major or minor version number
         'bugfixes' => 0  // number of fixed bugs since the last increment of the major or minor version number
     ],
     'baseUrl' => '/',
