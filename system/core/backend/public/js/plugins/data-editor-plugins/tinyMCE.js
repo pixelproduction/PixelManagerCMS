@@ -28,11 +28,8 @@
     $.fn.dataEditorPlugins.tinyMCE = function (method) {
 
         var defaultParameters = {
-            cssFile: parent.pixelmanagerGlobal.baseUrl + "system/core/backend/public/tiny_mce/themes/advanced/skins/pixelmanager/content.css",
-            style_formats: [
-                {title: 'Überschrift', block: 'h1'},
-                {title: 'Überschrift 2', block: 'h2'},
-            ]
+            cssFile: null,
+            styleFormats: false
         };
 
         function getRandomId() {
@@ -64,7 +61,7 @@
                 plugins: "pplink code table wordcount",
                 menubar: false,
                 content_css: parameters.cssFile,
-                style_formats: parameters.style_formats,
+                style_formats: parameters.styleFormats,
             });
         }
 
